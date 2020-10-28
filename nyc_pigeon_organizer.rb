@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
       inside_value.each do |names|
         if !final_data[names]
           final_data[names] = {}
-          #binding.pry
+          binding.pry
         end
         if !final_data[names][key]
           !final_data[names][key] = []
